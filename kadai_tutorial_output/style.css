@@ -15,6 +15,15 @@ body {
 	font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
+#nav-sp {
+	display: none;
+}
+
+#menu-sp {
+	display: none;
+}
+
+
 /* ヘッダー */
 header {
 	display: flex;
@@ -665,7 +674,7 @@ footer {
 
 	/* PC用ナビゲーション非表示 */
 	#nav-pc {
-		display: none;
+		display: none !important;
 	}
 
 	/* ハンバーガーメニュー */
